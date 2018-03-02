@@ -4,15 +4,15 @@
     "description": "Name of the extension"
   },
   "extensionDescription": {
-    "message": "Поиск выделенного текста с помощью поисковой системы из предварительно указанного списка.",
-    "description": "Description of the extension"
+    "message": "Поиск выделенного текста с помощью поисковой системы из предварительно составленного списка.",
+    "description": "description of the extension"
   },
   "multisearch": {
     "message": " это поиск несколькими поисковыми системами одновременно.",
     "description": "multi-search - it's a search with multiple search engines simultaneously."
   },
   "pageTitle": {
-    "message": "Параметры контекстного поиска",
+    "message": " Настройки Context Search",
     "description": ""
   },
   "header1": {
@@ -24,7 +24,7 @@
     "description": ""
   },
   "sameTab": {
-    "message": "В той же вкладке",
+    "message": "В текущей вкладке",
     "description": ""
   },
   "newWindow": {
@@ -44,11 +44,11 @@
     "description": ""
   },
   "bottom": {
-    "message": "Снизу",
+    "message": "Внизу",
     "description": ""
   },
   "top": {
-    "message": "Сверху",
+    "message": "Вверху",
     "description": ""
   },
   "hide": {
@@ -84,15 +84,15 @@
     "description": ""
   },
   "header4": {
-    "message": "Отображение поисковых систем сеткой иконок",
+    "message": "Отображение поисковых систем плиткой",
     "description": ""
   },
   "gridMode": {
-    "message": "Отображение поисковых систем сеткой иконок вместо списка",
+    "message": "Отображение поисковых систем плиткой вместо списка",
     "description": ""
   },
   "warning": {
-    "message": "Обратите внимание, что включение этой функции блокирует отображение контекстных меню других расширений.",
+    "message": " Внимание: при включении этой опции другие контекстные меню перестанут отображаться.",
     "description": ""
   },
   "savePreferences": {
@@ -100,7 +100,7 @@
     "description": ""
   },
   "header6": {
-    "message": "Какие поисковые системы вы хотели бы видеть в контекстном меню или сетке иконок?",
+    "message": "Какие поисковые системы вы хотели бы видеть в контекстном меню / плитках?",
     "description": ""
   },
   "clearAll": {
@@ -116,19 +116,19 @@
     "description": ""
   },
   "subheader61": {
-    "message": "Добавить новую поисковую систему",
+    "message": "Добавить новый поиск",
     "description": ""
   },
   "showSearchEngine": {
-    "message": "Показывать поисковую систему в сетке иконок или контекстном меню",
+    "message": "Показывать поисковую систему плиткой или в контекстном меню",
     "description": ""
   },
   "searchEngineName": {
-    "message": "Название поисковой системы",
+    "message": "Наименование поиска",
     "description": ""
   },
   "keyword": {
-    "message": "Ключевое слово",
+    "message": "Краткое имя",
     "description": ""
   },
   "multipleSearchEngines": {
@@ -144,11 +144,11 @@
     "description": ""
   },
   "testSearchEngine": {
-    "message": "Тестировать поисковую систему",
+    "message": "Тест поиска",
     "description": ""
   },
   "addSearchEngine": {
-    "message": "Добавить поисковую систему",
+    "message": "Добавить поиск ",
     "description": ""
   },
   "clear": {
@@ -176,7 +176,7 @@
     "description": ""
   },
   "notifySavedPreferences": {
-    "message": "Сохраненные настройки.",
+    "message": "Настройки сохранены.",
     "description": ""
   },
   "notifySearchEngineAdded": {
@@ -184,7 +184,7 @@
     "description": ""
   },
   "notifyEnableStorageSync": {
-    "message": "Убедитесь, что в 'about:config' строка 'webextensions.storage.sync.enabled' имеет значение 'true', в противном случае контекстный поиск не будет работать.",
+    "message": "Убедитесь, что в 'about:config' строка 'webextensions.storage.sync.enabled' имеет значение 'true', в противном случае Context Search не будет работать.",
     "description": ""
   },
   "notifySearchEnginesLoaded": {
@@ -196,11 +196,11 @@
     "description": ""
   },
   "titleGoogleSearch": {
-    "message": "Поиск по сайту с помощью Google",
+    "message": "Поиск Google по текущему сайту",
     "description": ""
   },
   "titleOptions": {
-    "message": "Параметры",
+    "message": "Настройки",
     "description": ""
   },
   "windowTitle": {
@@ -208,19 +208,19 @@
     "description": ""
   },
   "omniboxDescription": {
-    "message": "Поиск с использованием контекстного поиска с ключевыми словами. Пример: cs [ключевик] [цель поиска] (например 'cs w Linux' ищет в Википедии по слову 'Linux')",
+    "message": "Поиск в Context Search с краткими именами. Введите: cs [краткое имя] [искомое] (например 'cs w Linux' ищет в Википедии слово 'Linux')",
     "description": ""
   },
   "notifyUsage": {
-    "message": "Пример: cs [ключевик] [цель поиска] (например: cs w Linux)",
+    "message": "Введите: cs [краткое имя] [искомое] (например: cs w Linux)",
     "description": ""
   },
   "notifySearchEngineWithKeyword": {
-    "message": "Поисковая система с ключевым словом",
+    "message": "Поисковая система с кратким именем",
     "description": ""
   },
   "notifyUnknown": {
-    "message": "неизвестно.",
+    "message": "Неизвестно.",
     "description": ""
   }
 }
