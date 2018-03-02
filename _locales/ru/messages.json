@@ -1,226 +1,451 @@
 {
-  "extensionName": {
-    "message": "Context Search",
-    "description": "Name of the extension"
-  },
-  "extensionDescription": {
-    "message": "Поиск выделенного текста с помощью поисковой системы из предварительно указанного списка.",
-    "description": "Description of the extension"
-  },
-  "multisearch": {
-    "message": " это поиск несколькими поисковыми системами одновременно.",
-    "description": "multi-search - it's a search with multiple search engines simultaneously."
-  },
-  "pageTitle": {
-    "message": "Параметры контекстного поиска",
-    "description": ""
-  },
-  "header1": {
-    "message": "Где должны появиться результаты поиска?",
-    "description": ""
-  },
-  "newTab": {
-    "message": "В новой вкладке",
-    "description": ""
-  },
-  "sameTab": {
-    "message": "В той же вкладке",
-    "description": ""
-  },
-  "newWindow": {
-    "message": "В новом окне",
-    "description": ""
-  },
-  "active": {
-    "message": "Сделать активной новую вкладку / окно",
-    "description": ""
-  },
-  "header3": {
-    "message": "Расположение опций в контекстном меню",
-    "description": ""
-  },
-  "subheader31": {
-    "message": "Где бы вы хотели видеть опции в контекстном меню?",
-    "description": ""
-  },
-  "bottom": {
-    "message": "Снизу",
-    "description": ""
-  },
-  "top": {
-    "message": "Сверху",
-    "description": ""
-  },
-  "hide": {
-    "message": "Нигде (скрыть меню опций)",
-    "description": ""
-  },
-  "header5": {
-    "message": "импорт / экспорт поисковых систем",
-    "description": ""
-  },
-  "import": {
-    "message": "Импорт JSON с локального диска",
-    "description": ""
-  },
-  "export": {
-    "message": "Экспорт поисковых систем в JSON",
-    "description": ""
-  },
-  "download": {
-    "message": "Экспорт на локальный диск",
-    "description": ""
-  },
-  "header2": {
-    "message": "Отображение фавиконов в списке контекстного меню",
-    "description": ""
-  },
-  "getFavicons": {
-    "message": "Получать фавиконы с помощью 'besticon' API",
-    "description": ""
-  },
-  "note": {
-    "message": "Эта функция требует firefox 56 или выше.",
-    "description": ""
-  },
-  "header4": {
-    "message": "Отображение поисковых систем сеткой иконок",
-    "description": ""
-  },
-  "gridMode": {
-    "message": "Отображение поисковых систем сеткой иконок вместо списка",
-    "description": ""
-  },
-  "warning": {
-    "message": "Обратите внимание, что включение этой функции блокирует отображение контекстных меню других расширений.",
-    "description": ""
-  },
-  "savePreferences": {
-    "message": "Сохранить настройки",
-    "description": ""
-  },
-  "header6": {
-    "message": "Какие поисковые системы вы хотели бы видеть в контекстном меню или сетке иконок?",
-    "description": ""
-  },
-  "clearAll": {
-    "message": "Очистить всё",
-    "description": ""
-  },
-  "selectAll": {
-    "message": "Выбрать всё",
-    "description": ""
-  },
-  "reset": {
-    "message": "Сброс",
-    "description": ""
-  },
-  "subheader61": {
-    "message": "Добавить новую поисковую систему",
-    "description": ""
-  },
-  "showSearchEngine": {
-    "message": "Показывать поисковую систему в сетке иконок или контекстном меню",
-    "description": ""
-  },
-  "searchEngineName": {
-    "message": "Название поисковой системы",
-    "description": ""
-  },
-  "keyword": {
-    "message": "Ключевое слово",
-    "description": ""
-  },
-  "multipleSearchEngines": {
-    "message": "Использовать эту поисковую систему для multi-search",
-    "description": ""
-  },
-  "searchEngineURL": {
-    "message": "URL поисковой системы",
-    "description": ""
-  },
-  "startWith": {
-    "message": "Должно начинаться с 'https://'",
-    "description": ""
-  },
-  "testSearchEngine": {
-    "message": "Тестировать поисковую систему",
-    "description": ""
-  },
-  "addSearchEngine": {
-    "message": "Добавить поисковую систему",
-    "description": ""
-  },
-  "clear": {
-    "message": "Очистить",
-    "description": ""
-  },
-  "move": {
-    "message": "Переместить",
-    "description": ""
-  },
-  "up": {
-    "message": "вверх",
-    "description": ""
-  },
-  "down": {
-    "message": "вниз",
-    "description": ""
-  },
-  "remove": {
-    "message": "Удалить",
-    "description": ""
-  },
-  "multipleSearchEnginesSearch": {
-    "message": "Добавить эту поисковую систему в мульти-поиск",
-    "description": ""
-  },
-  "notifySavedPreferences": {
-    "message": "Сохраненные настройки.",
-    "description": ""
-  },
-  "notifySearchEngineAdded": {
-    "message": "Поисковая система добавлена.",
-    "description": ""
-  },
-  "notifyEnableStorageSync": {
-    "message": "Убедитесь, что в 'about:config' строка 'webextensions.storage.sync.enabled' имеет значение 'true', в противном случае контекстный поиск не будет работать.",
-    "description": ""
-  },
-  "notifySearchEnginesLoaded": {
-    "message": "Загружен список поисковых систем по умолчанию.",
-    "description": ""
-  },
-  "titleMultipleSearchEngines": {
-    "message": "Мульти-поиск",
-    "description": ""
-  },
-  "titleGoogleSearch": {
-    "message": "Поиск по сайту с помощью Google",
-    "description": ""
-  },
-  "titleOptions": {
-    "message": "Параметры",
-    "description": ""
-  },
-  "windowTitle": {
-    "message": "Результаты поиска для",
-    "description": ""
-  },
-  "omniboxDescription": {
-    "message": "Поиск с использованием контекстного поиска с ключевыми словами. Пример: cs [ключевик] [цель поиска] (например 'cs w Linux' ищет в Википедии по слову 'Linux')",
-    "description": ""
-  },
-  "notifyUsage": {
-    "message": "Пример: cs [ключевик] [цель поиска] (например: cs w Linux)",
-    "description": ""
-  },
-  "notifySearchEngineWithKeyword": {
-    "message": "Поисковая система с ключевым словом",
-    "description": ""
-  },
-  "notifyUnknown": {
-    "message": "неизвестно.",
-    "description": ""
-  }
+
+"extensionName": {
+
+"message": "Context Search",
+
+"description": "Name of the extension"
+
+},
+
+"extensionDescription": {
+
+"message": "Поиск выделенного текста с помощью поисковой системы из предварительно составленного списка.",
+
+"description": "Description of the extension"
+
+},
+
+"multisearch": {
+
+"message": " это поиск несколькими поисковыми системами одновременно.",
+
+"description": "multi-search - it's a search with multiple search engines simultaneously."
+
+},
+
+"pageTitle": {
+
+"message": " Настройки Context Search",
+
+"description": ""
+
+},
+
+"header1": {
+
+"message": "Где должны появиться результаты поиска?",
+
+"description": ""
+
+},
+
+"newTab": {
+
+"message": "В новой вкладке",
+
+"description": ""
+
+},
+
+"sameTab": {
+
+"message": "В текущей вкладке",
+
+"description": ""
+
+},
+
+"newWindow": {
+
+"message": "В новом окне",
+
+"description": ""
+
+},
+
+"active": {
+
+"message": "Сделать активной новую вкладку / окно",
+
+"description": ""
+
+},
+
+"header3": {
+
+"message": "Расположение опций в контекстном меню",
+
+"description": ""
+
+},
+
+"subheader31": {
+
+"message": "Где бы вы хотели видеть опции в контекстном меню?",
+
+"description": ""
+
+},
+
+"bottom": {
+
+"message": "Внизу",
+
+"description": ""
+
+},
+
+"top": {
+
+"message": "Вверху",
+
+"description": ""
+
+},
+
+"hide": {
+
+"message": "Нигде (скрыть меню опций)",
+
+"description": ""
+
+},
+
+"header5": {
+
+"message": "импорт / экспорт поисковых систем",
+
+"description": ""
+
+},
+
+"import": {
+
+"message": "Импорт JSON с локального диска",
+
+"description": ""
+
+},
+
+"export": {
+
+"message": "Экспорт поисковых систем в JSON",
+
+"description": ""
+
+},
+
+"download": {
+
+"message": "Экспорт на локальный диск",
+
+"description": ""
+
+},
+
+"header2": {
+
+"message": "Отображение фавиконов в списке контекстного меню",
+
+"description": ""
+
+},
+
+"getFavicons": {
+
+"message": "Получать фавиконы с помощью 'besticon' API",
+
+"description": ""
+
+},
+
+"note": {
+
+"message": "Эта функция требует firefox 56 или выше.",
+
+"description": ""
+
+},
+
+"header4": {
+
+"message": "Отображение поисковых систем плиткой",
+
+"description": ""
+
+},
+
+"gridMode": {
+
+"message": "Отображение поисковых систем плиткой вместо списка",
+
+"description": ""
+
+},
+
+"warning": {
+
+"message": " Внимание: при включении этой опции другие контекстные меню перестанут отображаться.",
+
+"description": ""
+
+},
+
+"savePreferences": {
+
+"message": "Сохранить настройки",
+
+"description": ""
+
+},
+
+"header6": {
+
+"message": "Какие поисковые системы вы хотели бы видеть в контекстном меню / плитках?",
+
+"description": ""
+
+},
+
+"clearAll": {
+
+"message": "Очистить всё",
+
+"description": ""
+
+},
+
+"selectAll": {
+
+"message": "Выбрать всё",
+
+"description": ""
+
+},
+
+"reset": {
+
+"message": "Сброс",
+
+"description": ""
+
+},
+
+"subheader61": {
+
+"message": "Добавить новый поиск",
+
+"description": ""
+
+},
+
+"showSearchEngine": {
+
+"message": "Показывать поисковую систему плиткой или в контекстном меню",
+
+"description": ""
+
+},
+
+"searchEngineName": {
+
+"message": "Наименование поиска",
+
+"description": ""
+
+},
+
+"keyword": {
+
+"message": "Краткое имя",
+
+"description": ""
+
+},
+
+"multipleSearchEngines": {
+
+"message": "Использовать эту поисковую систему для multi-search",
+
+"description": ""
+
+},
+
+"searchEngineURL": {
+
+"message": "URL поисковой системы",
+
+"description": ""
+
+},
+
+"startWith": {
+
+"message": "Должно начинаться с 'https://'",
+
+"description": ""
+
+},
+
+"testSearchEngine": {
+
+"message": "Тест поиска",
+
+"description": ""
+
+},
+
+"addSearchEngine": {
+
+"message": "Добавить поиск ",
+
+"description": ""
+
+},
+
+"clear": {
+
+"message": "Очистить",
+
+"description": ""
+
+},
+
+"move": {
+
+"message": "Переместить",
+
+"description": ""
+
+},
+
+"up": {
+
+"message": "вверх",
+
+"description": ""
+
+},
+
+"down": {
+
+"message": "вниз",
+
+"description": ""
+
+},
+
+"remove": {
+
+"message": "Удалить",
+
+"description": ""
+
+},
+
+"multipleSearchEnginesSearch": {
+
+"message": "Добавить эту поисковую систему в мульти-поиск",
+
+"description": ""
+
+},
+
+"notifySavedPreferences": {
+
+"message": "Настройки сохранены.",
+
+"description": ""
+
+},
+
+"notifySearchEngineAdded": {
+
+"message": "Поисковая система добавлена.",
+
+"description": ""
+
+},
+
+"notifyEnableStorageSync": {
+
+"message": "Убедитесь, что в 'about:config' строка 'webextensions.storage.sync.enabled' имеет значение 'true', в противном случае Context Search не будет работать.",
+
+"description": ""
+
+},
+
+"notifySearchEnginesLoaded": {
+
+"message": "Загружен список поисковых систем по умолчанию.",
+
+"description": ""
+
+},
+
+"titleMultipleSearchEngines": {
+
+"message": "Мульти-поиск",
+
+"description": ""
+
+},
+
+"titleGoogleSearch": {
+
+"message": "Поиск Google по текущему сайту",
+
+"description": ""
+
+},
+
+"titleOptions": {
+
+"message": "Настройки",
+
+"description": ""
+
+},
+
+"windowTitle": {
+
+"message": "Результаты поиска для",
+
+"description": ""
+
+},
+
+"omniboxDescription": {
+
+"message": "Поиск в Context Search с краткими именами. Введите: cs [краткое имя] [искомое] (например 'cs w Linux' ищет в Википедии слово 'Linux')",
+
+"description": ""
+
+},
+
+"notifyUsage": {
+
+"message": "Введите: cs [краткое имя] [искомое] (например: cs w Linux)",
+
+"description": ""
+
+},
+
+"notifySearchEngineWithKeyword": {
+
+"message": "Поисковая система с кратким именем",
+
+"description": ""
+
+},
+
+"notifyUnknown": {
+
+"message": "Неизвестно.",
+
+"description": ""
+
+}
+
 }
