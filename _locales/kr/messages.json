@@ -7,6 +7,10 @@
     "message": "Searches the selected text using a search engine from a pre-specified list.",
     "description": "Description of the extension"
   },
+  "multisearch": {
+    "message": " is a search with multiple search engines simultaneously.",
+    "description": "multi-search - it's a search with multiple search engines simultaneously."
+  },
   "pageTitle": {
     "message": "Context Search Preferences",
     "description": ""
@@ -168,7 +172,7 @@
     "description": ""
   },
   "multipleSearchEnginesSearch": {
-    "message": "Include this search engine for a multiple search engines search",
+    "message": "Include this search engine for a multi-search",
     "description": ""
   },
   "notifySavedPreferences": {

@@ -7,6 +7,10 @@
    "message": "Zoekt de geselecteerde tekst met een zoekmachine uit een vastgestelde lijst.",
    "description": "Description of the extension"
  },
+ "multisearch": {
+  "message": " is a search with multiple search engines simultaneously.",
+  "description": "multi-search - it's a search with multiple search engines simultaneously."
+},
  "pageTitle": {
    "message": "Voorkeuren van Context Search",
    "description": ""
@@ -168,7 +172,7 @@
   "description": ""
 },
 "multipleSearchEnginesSearch": {
-  "message": "Gebruik deze zoekmachine bij het zoeken met meerdere zoekmachines",
+  "message": "Gebruik deze zoekmachine bij het multi-search",
   "description": ""
 },
 "notifySavedPreferences": {
